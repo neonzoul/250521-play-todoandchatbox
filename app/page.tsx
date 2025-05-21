@@ -1,3 +1,12 @@
+import DashboardPage from "@/components/pages/DashboardPage";
+import { MainLayout } from "@/components/layouts/MainLayout";
+
 export default function Home() {
-  return <div>Hello World</div>;
+  return (
+    <>
+      <MainLayout>
+        <DashboardPage />
+      </MainLayout>
+    </>
+  );
 }
